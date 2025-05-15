@@ -1,6 +1,6 @@
 # github-docs
 
-#melakukan push untuk pertama kali
+#n melakukan push untuk pertama kali
 git init
 
 git add . (menambahkan file yang telah di ubah)
@@ -9,7 +9,7 @@ git push -u origin nama_branch (melakukan push ke branch yang diinginkan)
 
 
 
-#fungsi untuk menimpa semua code development ke branch yang aktif
+# fungsi untuk menimpa semua code development ke branch yang aktif
 git checkout development -- .
 
 
