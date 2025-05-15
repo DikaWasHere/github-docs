@@ -13,6 +13,10 @@ git push -u origin nama_branch (melakukan push ke branch yang diinginkan)
 git checkout development -- .
 
 
+# menimpa isi branch yang sedang aktif dengan development
+git reset --hard origin/development
+
+
 # Buat branch baru
 git checkout -b nama_branch
 
