@@ -1,6 +1,6 @@
 # github-docs
 
-#n melakukan push untuk pertama kali
+# melakukan push untuk pertama kali
 git init
 
 git add . (menambahkan file yang telah di ubah)
