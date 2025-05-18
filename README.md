@@ -6,8 +6,10 @@
 
 ## Git Command Collection
 
-### 🔄 Inisialisasi & Push Pertama
-
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### 🔄  INISIALISASI & PUSH PERTAMA  
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```bash
 # Inisialisasi repo baru
 git init
 
@@ -20,7 +22,7 @@ git commit -m "Pesan commit"
 # Push ke branch yang diinginkan (pertama kali)
 git push -u origin nama_branch 
 
-### 🔄 Inisialisasi & Push Pertama
+
 
 # Menimpa kode dari branch development ke branch aktif
 git checkout development -- .   
