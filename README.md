@@ -1,46 +1,58 @@
-# github-docs
+# GitHub Documentation Cheat Sheet
+
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/570475bf-7ba4-4d06-bf03-48556f647a96" width="300">
+  <img src="https://github.com/user-attachments/assets/570475bf-7ba4-4d06-bf03-48556f647a96" width="300" alt="GitHub Workflow">
 </div>
 
-# melakukan push untuk pertama kali
+## Git Command Collection
+
+### 🔄 Inisialisasi & Push Pertama
+```bash
+# Inisialisasi repo baru
 git init
 
-git add . (menambahkan file yang telah di ubah)
+# Menambahkan semua file yang diubah
+git add . 
 
-git commit -m "pesan code yang dilakukan" (melakukan commit dan memberikan pesan
+# Melakukan commit dengan pesan
+git commit -m "Pesan commit"  
 
-git push -u origin nama_branch (melakukan push ke branch yang diinginkan)
-
-
-
-# fungsi untuk menimpa semua code development ke branch yang aktif
-git checkout development -- .
+# Push ke branch yang diinginkan (pertama kali)
+git push -u origin nama_branch 
 
 
-# menimpa isi branch yang sedang aktif dengan development
-git reset --hard origin/development
 
 
-# Buat branch baru
-git checkout -b nama_branch
-
-# Pindah ke branch lain
-git checkout nama_branch
-
-# Lihat daftar branch
-git branch                  ( Branch lokaln )
-git branch -a               ( Semua branch (termasuk remote) )
-
-# Hapus branch lokal
-git branch -d nama_branch   (Hapus jika sudah di-merge)
-
-git branch -D nama_branch   ( Hapus paksa (belum di-merge) )
 
 
-#mengambil perubahan dari remote
-git fetch (melakukan remote ke branch origin/branch saat melakukan clone)
 
-git fetch --all (melakukan remote ke semua branch)
+# Menimpa kode dari branch development ke branch aktif
+git checkout development -- .   
 
-git fetch nama_remote_lain (remote ke branch spesifik)
+# Reset penuh ke development branch
+git reset --hard origin/development  
+
+# Buat dan pindah ke branch baru
+git checkout -b nama_branch     
+
+# Pindah ke branch yang ada
+git checkout nama_branch        
+
+# List branch lokal
+git branch       
+
+# List semua branch (termasuk remote)
+git branch -a    
+
+# Hapus branch yang sudah di-merge
+git branch -d nama_branch   
+
+# Hapus paksa branch belum di-merge
+git branch -D nama_branch   # Update branch origin default
+git fetch                 
+
+# Update semua remote branch
+git fetch --all           
+
+# Update specific remote
+git fetch nama_remote     
