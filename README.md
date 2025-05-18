@@ -1,10 +1,10 @@
-# GitHub Documentation Cheat Sheet
+# GitHub Docus
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/570475bf-7ba4-4d06-bf03-48556f647a96" width="300" alt="GitHub Workflow">
 </div>
 
-## Git Command Collection
+## Git Command Fav 
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ### 🔄  INISIALISASI & PUSH PERTAMA  
