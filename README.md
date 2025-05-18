@@ -30,3 +30,9 @@ git branch -a               # Semua branch (termasuk remote)
 # Hapus branch lokal
 git branch -d nama_branch   # Hapus jika sudah di-merge
 git branch -D nama_branch   # Hapus paksa (belum di-merge)
+
+
+#mengambil perubahan dari remote
+git fetch (melakukan remote ke branch origin/branch saat melakukan clone)
+git fetch --all (melakukan remote ke semua branch)
+git fetch nama_remote_lain (remote ke branch spesifik)
