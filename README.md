@@ -21,9 +21,12 @@ git commit -m "Pesan commit"
 
 # Push ke branch yang diinginkan (pertama kali)
 git push -u origin nama_branch 
+```
 
-
-
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### 🛠️  OPERASI FILE & BRANCH  
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```bash
 # Menimpa kode dari branch development ke branch aktif
 git checkout development -- .   
 
@@ -36,6 +39,12 @@ git checkout -b nama_branch
 # Pindah ke branch yang ada
 git checkout nama_branch        
 
+```
+
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### 🌳  MANAJEMEN BRANCH  
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```bash
 # List branch lokal
 git branch       
 
@@ -46,11 +55,20 @@ git branch -a
 git branch -d nama_branch   
 
 # Hapus paksa branch belum di-merge
-git branch -D nama_branch   # Update branch origin default
+git branch -D nama_branch       
+```
+
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### 🌐  SINKRONISASI REMOTE  
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```bash
+# Update branch origin default
 git fetch                 
 
 # Update semua remote branch
 git fetch --all           
 
 # Update specific remote
-git fetch nama_remote     
+git fetch nama_remote
+```
+
