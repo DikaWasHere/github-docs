@@ -72,3 +72,84 @@ git fetch --all
 git fetch nama_remote
 ```
 
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### 🔍 INSPEKSI & HISTORI
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```bash
+# Lihat perubahan yang belum di-commit
+git status
+
+# Lihat history commit
+git log --oneline --graph
+
+# Lihat perubahan spesifik suatu commit
+git show <commit-hash>
+
+# Cari perubahan pada kode
+git grep "keyword"
+```
+
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### ✏️ PERUBAHAN & PEMBETULAN
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```bash
+# Batalkan perubahan file tertentu
+git checkout -- nama_file
+
+# Batalkan semua perubahan lokal
+git checkout -- .
+
+# Ubah commit terakhir
+git commit --amend
+
+# Buat tag versi
+git tag -a v1.0.0 -m "Release version 1.0.0"
+```
+
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### 🤝 KOLABORASI & PULL REQUEST
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```bash
+# Ambil perubahan dan merge ke branch aktif
+git pull origin nama_branch
+
+# Buat branch tracking dari remote
+git checkout --track origin/nama_branch
+
+# Kirim branch ke remote
+git push origin nama_branch
+
+# Hapus branch remote
+git push origin --delete nama_branch
+```
+
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### 🧹 PEMBERSIHAN & OPTIMISASI
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```bash
+# Hapus file yang tidak ter-track
+git clean -fd
+
+# Prune branch remote yang sudah dihapus
+git fetch --prune
+
+# Kompres dan optimasi repository
+git gc
+```
+
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+### 🧩 STASH & WORKFLOW
+### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```bash
+# Simpan perubahan sementara
+git stash push -m "Pesan stash"
+
+# Lihat daftar stash
+git stash list
+
+# Ambil kembali stash terakhir
+git stash pop
+
+# Buang perubahan di stash
+git stash drop
+```
