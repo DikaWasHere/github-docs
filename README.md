@@ -39,6 +39,8 @@ git checkout -b nama_branch
 # Pindah ke branch yang ada
 git checkout nama_branch        
 
+#untuk beralih antar cabang
+git switch <nama-cabang>
 ```
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -55,7 +57,8 @@ git branch -a
 git branch -d nama_branch   
 
 # Hapus paksa branch belum di-merge
-git branch -D nama_branch       
+git branch -D nama_branch
+
 ```
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
