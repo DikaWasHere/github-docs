@@ -137,7 +137,11 @@ git clean -fd
 git fetch --prune
 
 # Kompres dan optimasi repository
-git gc
+git ggc
+
+#untuk menghapus untracked file/perubahan
+git clean -f
+
 ```
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
