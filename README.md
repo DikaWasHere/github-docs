@@ -9,6 +9,7 @@
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 ### 🔄  INISIALISASI & PUSH PERTAMA  
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
+
 ```bash
 # Inisialisasi repo baru
 git init
@@ -30,6 +31,7 @@ git clone link_guthub
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 ### 🛠️  OPERASI FILE & BRANCH  
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
+
 ```bash
 # Menimpa kode dari branch development ke branch aktif
 git checkout development -- .   
@@ -47,9 +49,10 @@ git checkout nama_branch
 git switch <nama-cabang>
 ```
 
-### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 ### 🌳  MANAJEMEN BRANCH  
-### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
+
 ```bash
 # List branch lokal
 git branch       
@@ -65,9 +68,10 @@ git branch -D nama_branch
 
 ```
 
-### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 ### 🌐  SINKRONISASI REMOTE  
-### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
+
 ```bash
 # Update branch origin default
 git fetch                 
@@ -79,9 +83,10 @@ git fetch --all
 git fetch nama_remote
 ```
 
-### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 ### 🔍 INSPEKSI & HISTORI
-### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
+
 ```bash
 # Lihat perubahan yang belum di-commit
 git status
@@ -113,9 +118,10 @@ git commit --amend
 git tag -a v1.0.0 -m "Release version 1.0.0"
 ```
 
-### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 ### 🤝 KOLABORASI & PULL REQUEST
-### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
+
 ```bash
 # Ambil perubahan dan merge ke branch aktif
 git pull origin nama_branch
@@ -130,9 +136,10 @@ git push origin nama_branch
 git push origin --delete nama_branch
 ```
 
-### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 ### 🧹 PEMBERSIHAN & OPTIMISASI
-### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
+
 ```bash
 # Hapus file yang tidak ter-track
 git clean -fd
@@ -148,9 +155,10 @@ git clean -f
 
 ```
 
-### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
 ### 🧩 STASH & WORKFLOW
-### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
+
 ```bash
 # Simpan perubahan sementara
 git stash push -m "Pesan stash"
