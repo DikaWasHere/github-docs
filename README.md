@@ -20,7 +20,11 @@ git add .
 git commit -m "Pesan commit"  
 
 # Push ke branch yang diinginkan (pertama kali)
-git push -u origin nama_branch 
+git push -u origin nama_branch
+
+
+#untuk menduplikat projek dari repo
+git clone link_guthub
 ```
 
 ### ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
