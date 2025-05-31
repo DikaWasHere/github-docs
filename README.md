@@ -4,7 +4,7 @@
   <img src="https://github.com/user-attachments/assets/570475bf-7ba4-4d06-bf03-48556f647a96" alt="GitHub Workflow" width="500"/>
 </p>
 
-<p align="center"><em>Gambar: Ilustrasi alur kerja GitHub Workflow</em></p>
+<p align="center"><em>Electric Wind God Fist</em></p>
 
 
 
