@@ -1,8 +1,8 @@
 # GitHub Docus
 
-<p align="center" style="background-color:#f0f0f0; padding:10px; border:1px solid #ccc; border-radius:10px;">
-  <img src="https://github.com/user-attachments/assets/570475bf-7ba4-4d06-bf03-48556f647a96" alt="GitHub Workflow" width="500"/>
-</p>
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/570475bf-7ba4-4d06-bf03-48556f647a96" width="300" alt="GitHub Workflow">
+</div>
 
 <p align="center"><em>Electric Wind God Fist</em></p>
 
