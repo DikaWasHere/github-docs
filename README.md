@@ -86,8 +86,18 @@ git fetch --all
 # Update specific remote
 git fetch nama_remote
 
+
+#memeriksa remote yang terhubung
+git remote -v
+
 # pindah repository
 git remote set-url origin https://github.com/team-name/nama-repo-tim.git
+
+# hapus remote yang terhubung
+git remote remove origin
+
+#menambahkan remote 
+git remote add origin https://github.com/DikaWasHere/portofolio.git
 ```
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="900">
